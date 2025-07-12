@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Playfair', serif;
+}
+
+.primary-color {
+  color: #ff8901;
+}
+
+.secondary-color {
+  color: #fb923c;
+}
+.menu-hover:hover{
+  color: #ff8901;
+}
+
+.bg-primary:hover{
+  background-color: #ff8901;
+  color: white;
+}
+.bg-primary-color {
+  background-color: #ff8901;
+  color: white;
+}
+
+.drop-shadow {
+  filter: drop-shadow(-6px 8px 15px rgba(0,0,0,0.2));
+}
