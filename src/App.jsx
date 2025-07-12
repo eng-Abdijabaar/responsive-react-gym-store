@@ -40,7 +40,7 @@ const App = () => {
       <Equipments />
       <Banner {...BannerData}/>
       <TabComb />
-      {/* <Banner {...BannerData2}/> */}
+      <Banner {...BannerData2}/>
     </div>
   )
 }
